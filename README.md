@@ -8,12 +8,11 @@
     - Okhttp3 3.3.1
     - Kotlin 1.0.6
 
- This app is using [TheMovieDB API](https://www.themoviedb.org/documentation/api) and listing the `upcoming` movies in a `RecyclerView` by default.
+This app is using [TheMovieDB API](https://www.themoviedb.org/documentation/api) and listing the `upcoming` movies in a `RecyclerView` by default.
 
- If you want to change the list type, you can do that to modify the `@GET("/3/movie/upcoming")`
- URL in `Service.kt`.
+If you want to change the list type, you can do that to modify the `@GET("/3/movie/`**`upcoming`**`")` URL in `Service.kt`.
 
-#### Available URLs:
+### Available URLs:
 
     - /upcoming
     - /top_rated
@@ -22,7 +21,7 @@
 
  You need to provide your `TheMovieDBAPIKey` in `gradle.properties` to compile/build the app.
 
-#### License
+### License
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
